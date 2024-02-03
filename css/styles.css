@@ -338,7 +338,7 @@ background-color: #404BBF;
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #4d5ae5;
+    background-color: #4D5AE5;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -347,13 +347,8 @@ background-color: #404BBF;
 }
 
 .icon-link:hover,
-.icon-link:focus{
-    background-color: #404bbf;
-}
-
-.icon-svg {
-    margin: auto;
-    fill: #f4f4fd;
+.icon-link:focus {
+    background-color: #404BBF;
 }
 
 .portfolio-img{
