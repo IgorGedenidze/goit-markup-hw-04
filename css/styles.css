@@ -509,7 +509,7 @@ background-color: #404BBF;
     color: #ffffff;
     display: flex;
     margin-bottom: 16px;
-    justify-content: center;
+    justify-content: start;
 }
 
 .ul-social-media-icons {
