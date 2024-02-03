@@ -62,6 +62,9 @@ img{
 
 .header{
     border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 
@@ -145,7 +148,7 @@ img{
 
 .address-item-link{
     color: #434455;
-    transition: color cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-item-link:hover,
@@ -161,7 +164,11 @@ img{
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-office\ 1.jpg);
+        url(../images/people-office.jpg);
+    max-width: 1440px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -339,6 +346,11 @@ background-color: #404BBF;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.icon-link:hover,
+.icon-link:focus{
+    background-color: #404BBF;
+}
+
 .icon-svg {
     margin: auto;
     fill: #f4f4fd;
@@ -379,6 +391,7 @@ background-color: #404BBF;
 
 .portfolio-list-item:hover{
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
 }
 
 .portfolio-item-anim {
@@ -415,7 +428,7 @@ background-color: #404BBF;
     }
 
 .portfolio-list-item:hover .overlay{
-    transform: translateY(0);
+    transform: translateY(0%);
 }
 
 
@@ -521,7 +534,8 @@ background-color: #404BBF;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
     background-color: #31d0aa;
 }
 
