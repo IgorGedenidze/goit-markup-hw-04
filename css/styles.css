@@ -539,5 +539,7 @@ background-color: #404BBF;
     background-color: #31d0aa;
 }
 
-.icon-svg {}
+.icon-svg {
+    fill: #f4f4fd;
+}
 
